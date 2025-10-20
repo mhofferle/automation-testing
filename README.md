@@ -21,10 +21,12 @@ Para la realización de este proyecto se han empleado las siguientes tecnología
 ## Instrucciones de instalación de dependencias
 Para poder ejecutar las pruebas de este proyecto, es necesario tener Python instalado y luego instalar las dependencias necesarias. 
 
-Ejecutar el siguiente comando en la terminal:
+Ejecutar el siguiente comando en la terminal para instalar dependencias:
 ```bash
-pip install selenium webdriver-manager pytest pytest-html
+pip install selenium webdriver-manager pytest pytest-html 
+```
 
 ## Comando para ejecutar las pruebas y obtener un reporte detallado de los resultados.
 ```bash
 pytest -v --html=reporte.html
+```
