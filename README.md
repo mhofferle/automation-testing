@@ -26,7 +26,7 @@ Ejecutar el siguiente comando en la terminal para instalar dependencias:
 pip install selenium webdriver-manager pytest pytest-html 
 ```
 
-## Comando para ejecutar las pruebas y obtener un reporte detallado de los resultados.
+## Comando para ejecutar las pruebas y obtener un reporte detallado de los resultados
 ```bash
-pytest -v --html=reporte.html
+pytest -v --html=reports/$(date +%Y_%m_%d)_report.html
 ```
