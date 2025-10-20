@@ -68,3 +68,5 @@ def test_cart(driver):
     assert "cart.html" in driver.current_url
     cart_product = driver.find_element(By.CLASS_NAME, 'inventory_item_name').text
     assert cart_product == "Sauce Labs Backpack"
+    
+    driver.save_screenshot("reports/cart.png") ## Guarda una captura de pantalla de la página actual
